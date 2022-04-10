@@ -27,7 +27,7 @@ $( document ).ready(function() {
  
   if(!localStorage.getItem('_bannershow_')){
       localStorage.setItem('_bannershow_', true);
-      setTimeout(function(){ $('#lp-addtocart').fadeIn(); }, 1144200);
+      setTimeout(function(){ $('#lp-addtocart').fadeIn(); }, 799800);
 
     }else {
        $('#lp-addtocart').fadeIn();
@@ -54,7 +54,7 @@ $( document ).ready(function() {
   }, 1111);
 
 	
-	setTimeout(function(){ $("#float-btn").show(); }, 1144200);		
+	setTimeout(function(){ $("#float-btn").show(); }, 799800);		
 });
 
 function addLoadEvent(func) {
